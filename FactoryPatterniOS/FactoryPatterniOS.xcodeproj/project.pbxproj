@@ -24,6 +24,11 @@
 		517FD74316F6F085002EB72E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 517FD74116F6F085002EB72E /* InfoPlist.strings */; };
 		517FD74616F6F085002EB72E /* FactoryPatterniOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FD74516F6F085002EB72E /* FactoryPatterniOSTests.m */; };
 		517FD75116F6F83C002EB72E /* FileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FD75016F6F83C002EB72E /* FileWriter.m */; };
+		517FD75A16F6FE05002EB72E /* TimeStampLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FD75916F6FE05002EB72E /* TimeStampLog.m */; };
+		517FD75D16F6FE10002EB72E /* SimpleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FD75C16F6FE10002EB72E /* SimpleLog.m */; };
+		517FD76016F6FE1C002EB72E /* FileLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FD75F16F6FE1C002EB72E /* FileLog.m */; };
+		517FD76316F6FE25002EB72E /* NoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FD76216F6FE25002EB72E /* NoLog.m */; };
+		517FD76716F7013F002EB72E /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FD76616F7013F002EB72E /* Logger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,16 @@
 		517FD74516F6F085002EB72E /* FactoryPatterniOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatterniOSTests.m; sourceTree = "<group>"; };
 		517FD74F16F6F83C002EB72E /* FileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWriter.h; sourceTree = "<group>"; };
 		517FD75016F6F83C002EB72E /* FileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWriter.m; sourceTree = "<group>"; };
+		517FD75816F6FE05002EB72E /* TimeStampLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeStampLog.h; sourceTree = "<group>"; };
+		517FD75916F6FE05002EB72E /* TimeStampLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeStampLog.m; sourceTree = "<group>"; };
+		517FD75B16F6FE10002EB72E /* SimpleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleLog.h; sourceTree = "<group>"; };
+		517FD75C16F6FE10002EB72E /* SimpleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleLog.m; sourceTree = "<group>"; };
+		517FD75E16F6FE1C002EB72E /* FileLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLog.h; sourceTree = "<group>"; };
+		517FD75F16F6FE1C002EB72E /* FileLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLog.m; sourceTree = "<group>"; };
+		517FD76116F6FE25002EB72E /* NoLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoLog.h; sourceTree = "<group>"; };
+		517FD76216F6FE25002EB72E /* NoLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoLog.m; sourceTree = "<group>"; };
+		517FD76516F7013F002EB72E /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		517FD76616F7013F002EB72E /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,14 +135,15 @@
 		517FD71A16F6F084002EB72E /* FactoryPatterniOS */ = {
 			isa = PBXGroup;
 			children = (
+				517FD75616F6FDD3002EB72E /* Factory */,
 				517FD72316F6F084002EB72E /* AppDelegate.h */,
 				517FD72416F6F084002EB72E /* AppDelegate.m */,
 				517FD72C16F6F084002EB72E /* MainStoryboard.storyboard */,
 				517FD72F16F6F084002EB72E /* ViewController.h */,
 				517FD73016F6F085002EB72E /* ViewController.m */,
-				517FD71B16F6F084002EB72E /* Supporting Files */,
 				517FD74F16F6F83C002EB72E /* FileWriter.h */,
 				517FD75016F6F83C002EB72E /* FileWriter.m */,
+				517FD71B16F6F084002EB72E /* Supporting Files */,
 			);
 			path = FactoryPatterniOS;
 			sourceTree = "<group>";
@@ -163,6 +179,23 @@
 				517FD74116F6F085002EB72E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		517FD75616F6FDD3002EB72E /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				517FD75816F6FE05002EB72E /* TimeStampLog.h */,
+				517FD75916F6FE05002EB72E /* TimeStampLog.m */,
+				517FD75B16F6FE10002EB72E /* SimpleLog.h */,
+				517FD75C16F6FE10002EB72E /* SimpleLog.m */,
+				517FD75E16F6FE1C002EB72E /* FileLog.h */,
+				517FD75F16F6FE1C002EB72E /* FileLog.m */,
+				517FD76116F6FE25002EB72E /* NoLog.h */,
+				517FD76216F6FE25002EB72E /* NoLog.m */,
+				517FD76516F7013F002EB72E /* Logger.h */,
+				517FD76616F7013F002EB72E /* Logger.m */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +312,11 @@
 				517FD72516F6F084002EB72E /* AppDelegate.m in Sources */,
 				517FD73116F6F085002EB72E /* ViewController.m in Sources */,
 				517FD75116F6F83C002EB72E /* FileWriter.m in Sources */,
+				517FD75A16F6FE05002EB72E /* TimeStampLog.m in Sources */,
+				517FD75D16F6FE10002EB72E /* SimpleLog.m in Sources */,
+				517FD76016F6FE1C002EB72E /* FileLog.m in Sources */,
+				517FD76316F6FE25002EB72E /* NoLog.m in Sources */,
+				517FD76716F7013F002EB72E /* Logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +491,7 @@
 				517FD74B16F6F085002EB72E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		517FD74C16F6F085002EB72E /* Build configuration list for PBXNativeTarget "FactoryPatterniOSTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +500,7 @@
 				517FD74E16F6F085002EB72E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
