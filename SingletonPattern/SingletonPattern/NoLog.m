@@ -10,8 +10,7 @@
 
 @implementation NoLog
 
--(void)writeLogWithText:(NSString *)logText,...
-{
+-(void)writeLogWithText:(NSString *)logText arguments:(va_list)args{
     //Nothing!
 }
 

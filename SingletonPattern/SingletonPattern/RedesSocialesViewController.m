@@ -22,24 +22,24 @@
     
     UISwitch * plusSwitch=(UISwitch *)sender;
     NSString * estado=(plusSwitch.on)?@"Activado":@"Desactivado";
-    [[Logger sharedInstance] writeLogWithText:@"Facebook cambio a %@",estado];
+    [[Logger sharedInstance] writeIndexedLogWithText:@"Facebook cambio a %@",estado];
 }
 -(IBAction)twitterDidChange:(id)sender{
     
     UISwitch * plusSwitch=(UISwitch *)sender;
     NSString * estado=(plusSwitch.on)?@"Activado":@"Desactivado";
-    [[Logger sharedInstance] writeLogWithText:@"Twitter cambio a %@",estado];
+    [[Logger sharedInstance] writeIndexedLogWithText:@"Twitter cambio a %@",estado];
 }
 -(IBAction)gplusDidChange:(id)sender{
     
     UISwitch * plusSwitch=(UISwitch *)sender;
     NSString * estado=(plusSwitch.on)?@"Activado":@"Desactivado";
-    [[Logger sharedInstance] writeLogWithText:@"GPlus cambio a %@",estado];
+    [[Logger sharedInstance] writeIndexedLogWithText:@"GPlus cambio a %@",estado];
     
 }
 -(IBAction)hideController:(id)sender{
 
-    [[Logger sharedInstance] writeLogWithText:@"Ocultando redes sociales"];
+    [[Logger sharedInstance] writeIndexedLogWithText:@"Ocultando redes sociales"];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

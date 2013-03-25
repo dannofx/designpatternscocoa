@@ -18,6 +18,6 @@ typedef enum
 @interface Logger : NSObject
 
 + (Logger *)sharedInstance ;
--(void)writeLogWithText:(NSString *)logText,...;
+-(void)writeIndexedLogWithText:(NSString *)logText,...;
 
 @end

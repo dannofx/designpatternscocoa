@@ -10,14 +10,9 @@
 
 @implementation SimpleLog
 
--(void)writeLogWithText:(NSString *)logText,...
+-(void)writeLogWithText:(NSString *)logText arguments:(va_list)args
 {
-    va_list args ;
-    va_start(args, logText);
-    
     NSString * finalString=[[NSString alloc] initWithFormat:logText arguments:args];
     fprintf(stdout, "%s\n", [finalString UTF8String]);
-    
-    va_end(args);
 }
 @end

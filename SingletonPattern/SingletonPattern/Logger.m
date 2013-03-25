@@ -12,6 +12,9 @@
 #import "NoLog.h"
 
 @interface Logger()
+{
+    NSInteger logCounter;
+}
 
 + (id)hiddenAlloc ;
 
@@ -34,6 +37,16 @@ static Logger *unicInstance = nil;
         }
     }
      return unicInstance;//Si se utiliza initialize basta con que este metodo retorne la instancia unica.
+}
+
+-(id)init
+{
+    self=[super init];
+    if(self)
+    {
+        logCounter=0;
+    }
+    return self;
 }
 
 #pragma mark - Singleton validations
@@ -59,9 +72,18 @@ static Logger *unicInstance = nil;
     return [self copyWithZone:zone];
 }
 
-#pragma mark - Abstract Methods
--(void)writeLogWithText:(NSString *)logText,...
+-(void)writeIndexedLogWithText:(NSString *)logText,...
 {
+    logCounter++;
+    va_list args ;
+    va_start(args, logText);
+    NSString * textWithIndex=[NSString stringWithFormat:@"LogNo.%d %@",logCounter,logText];
+    [self writeLogWithText:textWithIndex arguments:args];
+    va_end(args);
+}
+
+#pragma mark - Abstract Methods
+-(void)writeLogWithText:(NSString *)logText arguments:(va_list)args{
     //A implementar
 }
 

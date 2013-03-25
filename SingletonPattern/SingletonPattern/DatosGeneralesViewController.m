@@ -30,20 +30,20 @@
 -(IBAction)firstNameDidChanged:(id)sender
 {
     UITextField * textField=(UITextField *)sender;
-    [[Logger sharedInstance] writeLogWithText:@"Nombre cambio a %@",textField.text];
+    [[Logger sharedInstance] writeIndexedLogWithText:@"Nombre cambio a %@",textField.text];
     
 }
 -(IBAction)lastNameDidChange:(id)sender
 {
     
     UITextField * textField=(UITextField *)sender;
-    [[Logger sharedInstance] writeLogWithText:@"Apellido cambio a %@",textField.text];
+    [[Logger sharedInstance] writeIndexedLogWithText:@"Apellido cambio a %@",textField.text];
     
 }
 -(IBAction)ageDidChange:(id)sender
 {
     NSInteger edad=((UISlider *)sender).value;
-    [[Logger sharedInstance] writeLogWithText:@"Edad cambio a %d",edad ];
+    [[Logger sharedInstance] writeIndexedLogWithText:@"Edad cambio a %d",edad ];
 }
 
 #pragma mark - UITextFieldDelegate

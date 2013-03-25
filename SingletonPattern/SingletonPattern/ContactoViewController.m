@@ -31,19 +31,19 @@
 -(IBAction)emailDidChanged:(id)sender
 {
     UITextField * textField=(UITextField *)sender;
-    [[Logger sharedInstance] writeLogWithText:@"Email cambio a %@",textField.text ];
+    [[Logger sharedInstance] writeIndexedLogWithText:@"Email cambio a %@",textField.text ];
 
 }
 -(IBAction)addressDidChange:(id)sender
 {
     UITextField * textField=(UITextField *)sender;
-    [[Logger sharedInstance] writeLogWithText:@"Direccion cambio a %@",textField.text];
+    [[Logger sharedInstance] writeIndexedLogWithText:@"Direccion cambio a %@",textField.text];
 
 }
 -(IBAction)phoneNumberDidChange:(id)sender
 {
     UITextField * textField=(UITextField *)sender;
-    [[Logger sharedInstance] writeLogWithText:@"Numero telefonico  cambio a %@",textField.text];
+    [[Logger sharedInstance] writeIndexedLogWithText:@"Numero telefonico  cambio a %@",textField.text];
 
 }
 

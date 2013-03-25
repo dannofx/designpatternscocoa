@@ -10,15 +10,11 @@
 
 @implementation TimeStampLog
 
--(void)writeLogWithText:(NSString *)logText,...
-{
-    va_list args ;
-    va_start(args, logText);
-    
+-(void)writeLogWithText:(NSString *)logText arguments:(va_list)args{
+
     NSString * finalString=[[NSString alloc] initWithFormat:logText arguments:args];
     NSLog(@"%@",finalString);
-    
-    va_end(args);
+
 }
 
 @end
