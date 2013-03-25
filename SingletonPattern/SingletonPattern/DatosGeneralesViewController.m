@@ -7,6 +7,7 @@
 //
 
 #import "DatosGeneralesViewController.h"
+#import "Logger.h"
 
 @interface DatosGeneralesViewController ()
 
@@ -29,20 +30,20 @@
 -(IBAction)firstNameDidChanged:(id)sender
 {
     UITextField * textField=(UITextField *)sender;
-    NSLog(@"Nombre cambio a %@",textField.text);
+    [[Logger sharedInstance] writeLogWithText:@"Nombre cambio a %@",textField.text];
     
 }
 -(IBAction)lastNameDidChange:(id)sender
 {
     
     UITextField * textField=(UITextField *)sender;
-    NSLog(@"Apellido cambio a %@",textField.text);
+    [[Logger sharedInstance] writeLogWithText:@"Apellido cambio a %@",textField.text];
     
 }
 -(IBAction)ageDidChange:(id)sender
 {
     NSInteger edad=((UISlider *)sender).value;
-    NSLog(@"Edad cambio a %d",edad);
+    [[Logger sharedInstance] writeLogWithText:@"Edad cambio a %d",edad ];
 }
 
 #pragma mark - UITextFieldDelegate

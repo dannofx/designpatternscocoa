@@ -7,6 +7,7 @@
 //
 
 #import "ContactoViewController.h"
+#import "Logger.h"
 
 @interface ContactoViewController ()
 
@@ -30,19 +31,19 @@
 -(IBAction)emailDidChanged:(id)sender
 {
     UITextField * textField=(UITextField *)sender;
-    NSLog(@"Email cambio a %@",textField.text);
+    [[Logger sharedInstance] writeLogWithText:@"Email cambio a %@",textField.text ];
 
 }
 -(IBAction)addressDidChange:(id)sender
 {
     UITextField * textField=(UITextField *)sender;
-    NSLog(@"Direccion cambio a %@",textField.text);
+    [[Logger sharedInstance] writeLogWithText:@"Direccion cambio a %@",textField.text];
 
 }
 -(IBAction)phoneNumberDidChange:(id)sender
 {
     UITextField * textField=(UITextField *)sender;
-    NSLog(@"Numero telefonico  cambio a %@",textField.text);
+    [[Logger sharedInstance] writeLogWithText:@"Numero telefonico  cambio a %@",textField.text];
 
 }
 

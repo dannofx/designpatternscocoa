@@ -41,7 +41,7 @@
 		</dict>
 	</dict>
 	<key>LoggerType</key>
-	<integer>0</integer>
+	<string>TimeStampLog</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

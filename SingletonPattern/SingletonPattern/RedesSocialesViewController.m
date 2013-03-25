@@ -7,6 +7,7 @@
 //
 
 #import "RedesSocialesViewController.h"
+#import "Logger.h"
 
 @interface RedesSocialesViewController ()
 
@@ -21,24 +22,24 @@
     
     UISwitch * plusSwitch=(UISwitch *)sender;
     NSString * estado=(plusSwitch.on)?@"Activado":@"Desactivado";
-    NSLog(@"Facebook cambio a %@",estado);
+    [[Logger sharedInstance] writeLogWithText:@"Facebook cambio a %@",estado];
 }
 -(IBAction)twitterDidChange:(id)sender{
     
     UISwitch * plusSwitch=(UISwitch *)sender;
     NSString * estado=(plusSwitch.on)?@"Activado":@"Desactivado";
-    NSLog(@"Twitter cambio a %@",estado);
+    [[Logger sharedInstance] writeLogWithText:@"Twitter cambio a %@",estado];
 }
 -(IBAction)gplusDidChange:(id)sender{
     
     UISwitch * plusSwitch=(UISwitch *)sender;
     NSString * estado=(plusSwitch.on)?@"Activado":@"Desactivado";
-    NSLog(@"GPlus cambio a %@",estado);
+    [[Logger sharedInstance] writeLogWithText:@"GPlus cambio a %@",estado];
     
 }
 -(IBAction)hideController:(id)sender{
 
-    NSLog(@"Ocultando redes sociales");
+    [[Logger sharedInstance] writeLogWithText:@"Ocultando redes sociales"];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

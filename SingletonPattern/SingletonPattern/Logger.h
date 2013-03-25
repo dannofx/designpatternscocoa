@@ -15,10 +15,9 @@ typedef enum
     LoggerTypeSingle=2,
 }LoggerType;
 
-
-
-
 @interface Logger : NSObject
 
++ (Logger *)sharedInstance ;
 -(void)writeLogWithText:(NSString *)logText,...;
+
 @end
