@@ -10,30 +10,15 @@
 #import "TimeStampLog.h"
 #import "SimpleLog.h"
 #import "NoLog.h"
-#import "FileLog.h"
 
 @implementation Logger
 
 
-+(id<Logger>)loggerWithType:(LoggerType)type
+
+#pragma mark - Abstract Methods
+-(void)writeLogWithText:(NSString *)logText,...
 {
-    id<Logger> logger;
-    switch (type) {
-        case LoggerTypeFile:
-            logger=[[FileLog alloc] init];
-            break;
-        case LoggerTypeTimeStamp:
-            logger=[[TimeStampLog alloc] init];
-            break;
-        case LoggerTypeSingle:
-            logger=[[SimpleLog alloc] init];
-            break;
-        case LoggerTypeNone:
-        default:
-            logger=[[NoLog alloc] init];
-            break;
-    }
-    return logger;
+    //A implementar
 }
 
 @end

@@ -31,11 +31,8 @@
 		51401F7B1700177300D9A354 /* RedesSocialesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F7A1700177300D9A354 /* RedesSocialesViewController.m */; };
 		51401F8B1700192800D9A354 /* TimeStampLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F821700192800D9A354 /* TimeStampLog.m */; };
 		51401F8C1700192800D9A354 /* SimpleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F841700192800D9A354 /* SimpleLog.m */; };
-		51401F8D1700192800D9A354 /* FileLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F861700192800D9A354 /* FileLog.m */; };
 		51401F8E1700192800D9A354 /* NoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F881700192800D9A354 /* NoLog.m */; };
 		51401F8F1700192800D9A354 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F8A1700192800D9A354 /* Logger.m */; };
-		51401F921700196400D9A354 /* FileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F911700196400D9A354 /* FileWriter.m */; };
-		51401F9317001C9900D9A354 /* FileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F911700196400D9A354 /* FileWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,14 +80,10 @@
 		51401F821700192800D9A354 /* TimeStampLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeStampLog.m; sourceTree = "<group>"; };
 		51401F831700192800D9A354 /* SimpleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleLog.h; sourceTree = "<group>"; };
 		51401F841700192800D9A354 /* SimpleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleLog.m; sourceTree = "<group>"; };
-		51401F851700192800D9A354 /* FileLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLog.h; sourceTree = "<group>"; };
-		51401F861700192800D9A354 /* FileLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLog.m; sourceTree = "<group>"; };
 		51401F871700192800D9A354 /* NoLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoLog.h; sourceTree = "<group>"; };
 		51401F881700192800D9A354 /* NoLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoLog.m; sourceTree = "<group>"; };
 		51401F891700192800D9A354 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
 		51401F8A1700192800D9A354 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
-		51401F901700196400D9A354 /* FileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWriter.h; sourceTree = "<group>"; };
-		51401F911700196400D9A354 /* FileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +153,6 @@
 				51401F56170011F200D9A354 /* ContactoViewController.m */,
 				51401F791700177300D9A354 /* RedesSocialesViewController.h */,
 				51401F7A1700177300D9A354 /* RedesSocialesViewController.m */,
-				51401F901700196400D9A354 /* FileWriter.h */,
-				51401F911700196400D9A354 /* FileWriter.m */,
 				51401F51170011F200D9A354 /* first.png */,
 				51401F53170011F200D9A354 /* first@2x.png */,
 				51401F58170011F200D9A354 /* second.png */,
@@ -211,8 +202,6 @@
 				51401F821700192800D9A354 /* TimeStampLog.m */,
 				51401F831700192800D9A354 /* SimpleLog.h */,
 				51401F841700192800D9A354 /* SimpleLog.m */,
-				51401F851700192800D9A354 /* FileLog.h */,
-				51401F861700192800D9A354 /* FileLog.m */,
 				51401F871700192800D9A354 /* NoLog.h */,
 				51401F881700192800D9A354 /* NoLog.m */,
 				51401F891700192800D9A354 /* Logger.h */,
@@ -342,10 +331,8 @@
 				51401F7B1700177300D9A354 /* RedesSocialesViewController.m in Sources */,
 				51401F8B1700192800D9A354 /* TimeStampLog.m in Sources */,
 				51401F8C1700192800D9A354 /* SimpleLog.m in Sources */,
-				51401F8D1700192800D9A354 /* FileLog.m in Sources */,
 				51401F8E1700192800D9A354 /* NoLog.m in Sources */,
 				51401F8F1700192800D9A354 /* Logger.m in Sources */,
-				51401F9317001C9900D9A354 /* FileWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +341,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				51401F70170011F300D9A354 /* SingletonPatternTests.m in Sources */,
-				51401F921700196400D9A354 /* FileWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

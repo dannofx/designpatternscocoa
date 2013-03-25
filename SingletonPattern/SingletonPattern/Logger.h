@@ -13,18 +13,12 @@ typedef enum
     LoggerTypeNone=0,
     LoggerTypeTimeStamp=1,
     LoggerTypeSingle=2,
-    LoggerTypeFile=3,
-
 }LoggerType;
 
-@protocol Logger <NSObject>
 
--(void)writeLogWithText:(NSString *)logText,...;
-
-@end
 
 
 @interface Logger : NSObject
 
-+(id<Logger>)loggerWithType:(LoggerType)type;
+-(void)writeLogWithText:(NSString *)logText,...;
 @end

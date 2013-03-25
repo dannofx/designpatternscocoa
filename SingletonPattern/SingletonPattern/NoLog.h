@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "Logger.h"
 
-@interface NoLog : NSObject<Logger>
+@interface NoLog : Logger
 
 @end

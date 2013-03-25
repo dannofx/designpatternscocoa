@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "Logger.h"
 
-@interface TimeStampLog : NSObject<Logger>
+@interface TimeStampLog : Logger
 
 @end
