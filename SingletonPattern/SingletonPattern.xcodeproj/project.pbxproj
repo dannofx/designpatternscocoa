@@ -17,10 +17,10 @@
 		51401F48170011F200D9A354 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51401F47170011F200D9A354 /* Default@2x.png */; };
 		51401F4A170011F200D9A354 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51401F49170011F200D9A354 /* Default-568h@2x.png */; };
 		51401F4D170011F200D9A354 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51401F4B170011F200D9A354 /* MainStoryboard.storyboard */; };
-		51401F50170011F200D9A354 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F4F170011F200D9A354 /* FirstViewController.m */; };
+		51401F50170011F200D9A354 /* DatosGeneralesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F4F170011F200D9A354 /* DatosGeneralesViewController.m */; };
 		51401F52170011F200D9A354 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 51401F51170011F200D9A354 /* first.png */; };
 		51401F54170011F200D9A354 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51401F53170011F200D9A354 /* first@2x.png */; };
-		51401F57170011F200D9A354 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F56170011F200D9A354 /* SecondViewController.m */; };
+		51401F57170011F200D9A354 /* ContactoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F56170011F200D9A354 /* ContactoViewController.m */; };
 		51401F59170011F200D9A354 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 51401F58170011F200D9A354 /* second.png */; };
 		51401F5B170011F200D9A354 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51401F5A170011F200D9A354 /* second@2x.png */; };
 		51401F63170011F300D9A354 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51401F62170011F300D9A354 /* SenTestingKit.framework */; };
@@ -28,6 +28,14 @@
 		51401F65170011F300D9A354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51401F35170011F200D9A354 /* Foundation.framework */; };
 		51401F6D170011F300D9A354 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51401F6B170011F300D9A354 /* InfoPlist.strings */; };
 		51401F70170011F300D9A354 /* SingletonPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F6F170011F300D9A354 /* SingletonPatternTests.m */; };
+		51401F7B1700177300D9A354 /* RedesSocialesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F7A1700177300D9A354 /* RedesSocialesViewController.m */; };
+		51401F8B1700192800D9A354 /* TimeStampLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F821700192800D9A354 /* TimeStampLog.m */; };
+		51401F8C1700192800D9A354 /* SimpleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F841700192800D9A354 /* SimpleLog.m */; };
+		51401F8D1700192800D9A354 /* FileLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F861700192800D9A354 /* FileLog.m */; };
+		51401F8E1700192800D9A354 /* NoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F881700192800D9A354 /* NoLog.m */; };
+		51401F8F1700192800D9A354 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F8A1700192800D9A354 /* Logger.m */; };
+		51401F921700196400D9A354 /* FileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F911700196400D9A354 /* FileWriter.m */; };
+		51401F9317001C9900D9A354 /* FileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51401F911700196400D9A354 /* FileWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +63,12 @@
 		51401F47170011F200D9A354 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		51401F49170011F200D9A354 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		51401F4C170011F200D9A354 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		51401F4E170011F200D9A354 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		51401F4F170011F200D9A354 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		51401F4E170011F200D9A354 /* DatosGeneralesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatosGeneralesViewController.h; sourceTree = "<group>"; };
+		51401F4F170011F200D9A354 /* DatosGeneralesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatosGeneralesViewController.m; sourceTree = "<group>"; };
 		51401F51170011F200D9A354 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		51401F53170011F200D9A354 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		51401F55170011F200D9A354 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		51401F56170011F200D9A354 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		51401F55170011F200D9A354 /* ContactoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactoViewController.h; sourceTree = "<group>"; };
+		51401F56170011F200D9A354 /* ContactoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactoViewController.m; sourceTree = "<group>"; };
 		51401F58170011F200D9A354 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		51401F5A170011F200D9A354 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		51401F61170011F300D9A354 /* SingletonPatternTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonPatternTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +77,20 @@
 		51401F6C170011F300D9A354 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51401F6E170011F300D9A354 /* SingletonPatternTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPatternTests.h; sourceTree = "<group>"; };
 		51401F6F170011F300D9A354 /* SingletonPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPatternTests.m; sourceTree = "<group>"; };
+		51401F791700177300D9A354 /* RedesSocialesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedesSocialesViewController.h; sourceTree = "<group>"; };
+		51401F7A1700177300D9A354 /* RedesSocialesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedesSocialesViewController.m; sourceTree = "<group>"; };
+		51401F811700192800D9A354 /* TimeStampLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeStampLog.h; sourceTree = "<group>"; };
+		51401F821700192800D9A354 /* TimeStampLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeStampLog.m; sourceTree = "<group>"; };
+		51401F831700192800D9A354 /* SimpleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleLog.h; sourceTree = "<group>"; };
+		51401F841700192800D9A354 /* SimpleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleLog.m; sourceTree = "<group>"; };
+		51401F851700192800D9A354 /* FileLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLog.h; sourceTree = "<group>"; };
+		51401F861700192800D9A354 /* FileLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLog.m; sourceTree = "<group>"; };
+		51401F871700192800D9A354 /* NoLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoLog.h; sourceTree = "<group>"; };
+		51401F881700192800D9A354 /* NoLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoLog.m; sourceTree = "<group>"; };
+		51401F891700192800D9A354 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		51401F8A1700192800D9A354 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
+		51401F901700196400D9A354 /* FileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWriter.h; sourceTree = "<group>"; };
+		51401F911700196400D9A354 /* FileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,15 +150,20 @@
 		51401F39170011F200D9A354 /* SingletonPattern */ = {
 			isa = PBXGroup;
 			children = (
+				51401F801700191500D9A354 /* Singleton */,
 				51401F42170011F200D9A354 /* AppDelegate.h */,
 				51401F43170011F200D9A354 /* AppDelegate.m */,
 				51401F4B170011F200D9A354 /* MainStoryboard.storyboard */,
-				51401F4E170011F200D9A354 /* FirstViewController.h */,
-				51401F4F170011F200D9A354 /* FirstViewController.m */,
+				51401F4E170011F200D9A354 /* DatosGeneralesViewController.h */,
+				51401F4F170011F200D9A354 /* DatosGeneralesViewController.m */,
+				51401F55170011F200D9A354 /* ContactoViewController.h */,
+				51401F56170011F200D9A354 /* ContactoViewController.m */,
+				51401F791700177300D9A354 /* RedesSocialesViewController.h */,
+				51401F7A1700177300D9A354 /* RedesSocialesViewController.m */,
+				51401F901700196400D9A354 /* FileWriter.h */,
+				51401F911700196400D9A354 /* FileWriter.m */,
 				51401F51170011F200D9A354 /* first.png */,
 				51401F53170011F200D9A354 /* first@2x.png */,
-				51401F55170011F200D9A354 /* SecondViewController.h */,
-				51401F56170011F200D9A354 /* SecondViewController.m */,
 				51401F58170011F200D9A354 /* second.png */,
 				51401F5A170011F200D9A354 /* second@2x.png */,
 				51401F3A170011F200D9A354 /* Supporting Files */,
@@ -175,6 +202,23 @@
 				51401F6B170011F300D9A354 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51401F801700191500D9A354 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				51401F811700192800D9A354 /* TimeStampLog.h */,
+				51401F821700192800D9A354 /* TimeStampLog.m */,
+				51401F831700192800D9A354 /* SimpleLog.h */,
+				51401F841700192800D9A354 /* SimpleLog.m */,
+				51401F851700192800D9A354 /* FileLog.h */,
+				51401F861700192800D9A354 /* FileLog.m */,
+				51401F871700192800D9A354 /* NoLog.h */,
+				51401F881700192800D9A354 /* NoLog.m */,
+				51401F891700192800D9A354 /* Logger.h */,
+				51401F8A1700192800D9A354 /* Logger.m */,
+			);
+			name = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,8 +337,15 @@
 			files = (
 				51401F40170011F200D9A354 /* main.m in Sources */,
 				51401F44170011F200D9A354 /* AppDelegate.m in Sources */,
-				51401F50170011F200D9A354 /* FirstViewController.m in Sources */,
-				51401F57170011F200D9A354 /* SecondViewController.m in Sources */,
+				51401F50170011F200D9A354 /* DatosGeneralesViewController.m in Sources */,
+				51401F57170011F200D9A354 /* ContactoViewController.m in Sources */,
+				51401F7B1700177300D9A354 /* RedesSocialesViewController.m in Sources */,
+				51401F8B1700192800D9A354 /* TimeStampLog.m in Sources */,
+				51401F8C1700192800D9A354 /* SimpleLog.m in Sources */,
+				51401F8D1700192800D9A354 /* FileLog.m in Sources */,
+				51401F8E1700192800D9A354 /* NoLog.m in Sources */,
+				51401F8F1700192800D9A354 /* Logger.m in Sources */,
+				51401F9317001C9900D9A354 /* FileWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51401F70170011F300D9A354 /* SingletonPatternTests.m in Sources */,
+				51401F921700196400D9A354 /* FileWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

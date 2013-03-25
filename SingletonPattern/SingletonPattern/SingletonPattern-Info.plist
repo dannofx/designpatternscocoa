@@ -40,6 +40,8 @@
 			<false/>
 		</dict>
 	</dict>
+	<key>LoggerType</key>
+	<integer>0</integer>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
