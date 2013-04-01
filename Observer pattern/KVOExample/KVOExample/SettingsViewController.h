@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SettingsViewController : UIViewController
+
+@property (nonatomic,retain) IBOutlet UILabel * nameLabel;
+@property (nonatomic,retain) NSString * userName;
+-(IBAction)nameDidChange:(id)sender;
 
 @end

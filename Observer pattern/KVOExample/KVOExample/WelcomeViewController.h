@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface WelcomeViewController : UIViewController
 
+@property (nonatomic,retain) IBOutlet UITextView * nameTextView;
 @end
