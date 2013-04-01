@@ -19,6 +19,8 @@
 
 @interface CustomSlider : UISlider
 
+@property (assign) id<CustomSliderDelegate> delegate;
+
 
 
 @end

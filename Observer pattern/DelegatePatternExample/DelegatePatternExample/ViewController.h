@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "CustomSlider.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CustomSliderDelegate>
 
-@property (nonatomic,retain) IBOutlet UISlider * customSlider;
+@property (nonatomic,retain) IBOutlet CustomSlider * customSlider;
 @property (nonatomic,retain) IBOutlet UILabel * currentValueLabel;
 @property (nonatomic,retain) IBOutlet UILabel * maximumValueLabel;
 @property (nonatomic,retain) IBOutlet UILabel * minimumValueLabel;

@@ -9,23 +9,42 @@
 #import "CustomSlider.h"
 
 @implementation CustomSlider
+@synthesize delegate;
 
-- (id)initWithFrame:(CGRect)frame
+
+
+-(void)setValue:(float)value animated:(BOOL)animated
 {
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
-    }
-    return self;
+    [super setValue:value animated:animated];
+    if(self.delegate)
+        [self.delegate customSliderDidChangeValue:value];
+}
+-(void)setValue:(float)value
+{
+    [super setValue:value];
+    if(self.delegate)
+        [self.delegate customSliderDidChangeValue:value];
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+-(void)setMaximumValue:(float)maximumValue
 {
-    // Drawing code
+    [super setMaximumValue:maximumValue];
+    if(self.delegate)
+        [self.delegate customSliderDidChangeMaximumValue:maximumValue];
 }
-*/
 
+-(void)setMinimumValue:(float)minimumValue
+{
+    [super setMinimumValue:minimumValue];
+    if(self.delegate)
+        [self.delegate customSliderDidChangeMinimumValue:minimumValue];
+}
+
+-(void)setBackgroundColor:(UIColor *)backgroundColor
+{
+    [super setBackgroundColor:backgroundColor];
+    
+    if(self.delegate)
+        [self.delegate customSliderDidChangeBackgroundColor:backgroundColor];
+}
 @end
