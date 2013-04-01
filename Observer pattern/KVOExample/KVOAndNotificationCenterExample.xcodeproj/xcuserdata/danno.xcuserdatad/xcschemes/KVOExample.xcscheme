@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5145ED491709713800A0233A"
                BuildableName = "KVOExample.app"
-               BlueprintName = "KVOExample"
-               ReferencedContainer = "container:KVOExample.xcodeproj">
+               BlueprintName = "KVOAndNotificationCenterExample"
+               ReferencedContainer = "container:KVOAndNotificationCenterExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5145ED7B1709713800A0233A"
                BuildableName = "KVOExampleTests.octest"
-               BlueprintName = "KVOExampleTests"
-               ReferencedContainer = "container:KVOExample.xcodeproj">
+               BlueprintName = "KVOAndNotificationCenterExampleTests"
+               ReferencedContainer = "container:KVOAndNotificationCenterExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5145ED491709713800A0233A"
             BuildableName = "KVOExample.app"
-            BlueprintName = "KVOExample"
-            ReferencedContainer = "container:KVOExample.xcodeproj">
+            BlueprintName = "KVOAndNotificationCenterExample"
+            ReferencedContainer = "container:KVOAndNotificationCenterExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5145ED491709713800A0233A"
             BuildableName = "KVOExample.app"
-            BlueprintName = "KVOExample"
-            ReferencedContainer = "container:KVOExample.xcodeproj">
+            BlueprintName = "KVOAndNotificationCenterExample"
+            ReferencedContainer = "container:KVOAndNotificationCenterExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5145ED491709713800A0233A"
             BuildableName = "KVOExample.app"
-            BlueprintName = "KVOExample"
-            ReferencedContainer = "container:KVOExample.xcodeproj">
+            BlueprintName = "KVOAndNotificationCenterExample"
+            ReferencedContainer = "container:KVOAndNotificationCenterExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

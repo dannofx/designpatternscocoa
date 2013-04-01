@@ -10,15 +10,23 @@
 
 @interface SettingsViewController ()
 
+-(void)updateMyUserLabel:(NSNotification *)notification;
 @end
 
 @implementation SettingsViewController
 static NSString * keyName=@"userName";
+static NSString * notificationName=@"userName";
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	
+    
+
+
+    /*
+    //Implementacion KVO
+     
     [self addObserver:self
            forKeyPath:keyName
               options:(NSKeyValueObservingOptionOld |
@@ -26,6 +34,7 @@ static NSString * keyName=@"userName";
               context:nil];
     
     
+     
     #warning Leer el comentario
     //La gran desventaja de esta manera de observar un objeto es que no es muy recomendable agregar muchos
     //observadores, en especial aquellos que no tienen una conexion explicita con el objeto a ser observado,
@@ -37,7 +46,14 @@ static NSString * keyName=@"userName";
            forKeyPath:keyName
               options:(NSKeyValueObservingOptionOld |
                        NSKeyValueObservingOptionNew)
-              context:nil];
+              context:nil];*/
+    
+    //Implementacion con notification center
+
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self selector:@selector(updateMyUserLabel:) name:notificationName object:nil];
+    //el parametro object indica el sender, si se indica solamente las notificaciones posteadas por ese
+    //sender seran entregadas a este observer
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,8 +68,23 @@ static NSString * keyName=@"userName";
     self.userName=nameField.text;
     [nameField resignFirstResponder];
     
+
+    NSDictionary *dictionary = [NSDictionary dictionaryWithObject:self.userName forKey:keyName];
+    [[NSNotificationCenter defaultCenter] postNotificationName:notificationName object:nil
+                                                      userInfo:dictionary];
+    
+    
 }
 
+-(void)updateMyUserLabel:(NSNotification *)notification
+{
+    NSString * nameString=[notification.userInfo objectForKey:keyName];
+    NSString * finalString=[NSString stringWithFormat:@"The current user name is: %@ ",nameString];
+    self.nameLabel.text=finalString;
+}
+
+/*
+//Implementacion KVO
 - (void)observeValueForKeyPath:(NSString *)keyPath
                       ofObject:(id)object
                         change:(NSDictionary *)change
@@ -70,11 +101,14 @@ static NSString * keyName=@"userName";
     }
     
     
-}
+}*/
 
 -(void)dealloc
 {
-    [self removeObserver:self forKeyPath:keyName];
+    //Implementacion con notification center
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    //Implementacion KVO
+    //[self removeObserver:self forKeyPath:keyName];
 }
 
 

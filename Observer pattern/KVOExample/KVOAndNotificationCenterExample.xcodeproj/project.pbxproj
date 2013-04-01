@@ -41,14 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5145ED4A1709713800A0233A /* KVOExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5145ED4A1709713800A0233A /* KVOAndNotificationCenterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOAndNotificationCenterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5145ED4E1709713800A0233A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5145ED501709713800A0233A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5145ED521709713800A0233A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5145ED561709713800A0233A /* KVOExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KVOExample-Info.plist"; sourceTree = "<group>"; };
+		5145ED561709713800A0233A /* KVOAndNotificationCenterExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KVOAndNotificationCenterExample-Info.plist"; sourceTree = "<group>"; };
 		5145ED581709713800A0233A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5145ED5A1709713800A0233A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5145ED5C1709713800A0233A /* KVOExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVOExample-Prefix.pch"; sourceTree = "<group>"; };
+		5145ED5C1709713800A0233A /* KVOAndNotificationCenterExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVOAndNotificationCenterExample-Prefix.pch"; sourceTree = "<group>"; };
 		5145ED5D1709713800A0233A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5145ED5E1709713800A0233A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5145ED601709713800A0233A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -63,9 +63,9 @@
 		5145ED711709713800A0233A /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		5145ED731709713800A0233A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		5145ED751709713800A0233A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		5145ED7C1709713800A0233A /* KVOExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5145ED7C1709713800A0233A /* KVOAndNotificationCenterExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOAndNotificationCenterExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5145ED7D1709713800A0233A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5145ED851709713800A0233A /* KVOExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KVOExampleTests-Info.plist"; sourceTree = "<group>"; };
+		5145ED851709713800A0233A /* KVOAndNotificationCenterExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KVOAndNotificationCenterExampleTests-Info.plist"; sourceTree = "<group>"; };
 		5145ED871709713800A0233A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5145ED891709713800A0233A /* KVOExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOExampleTests.h; sourceTree = "<group>"; };
 		5145ED8A1709713800A0233A /* KVOExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOExampleTests.m; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		5145ED3F1709713800A0233A = {
 			isa = PBXGroup;
 			children = (
-				5145ED541709713800A0233A /* KVOExample */,
+				5145ED541709713800A0233A /* KVOAndNotificationCenterExample */,
 				5145ED831709713800A0233A /* KVOExampleTests */,
 				5145ED4D1709713800A0233A /* Frameworks */,
 				5145ED4B1709713800A0233A /* Products */,
@@ -108,8 +108,8 @@
 		5145ED4B1709713800A0233A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5145ED4A1709713800A0233A /* KVOExample.app */,
-				5145ED7C1709713800A0233A /* KVOExampleTests.octest */,
+				5145ED4A1709713800A0233A /* KVOAndNotificationCenterExample.app */,
+				5145ED7C1709713800A0233A /* KVOAndNotificationCenterExampleTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5145ED541709713800A0233A /* KVOExample */ = {
+		5145ED541709713800A0233A /* KVOAndNotificationCenterExample */ = {
 			isa = PBXGroup;
 			children = (
 				5145ED5D1709713800A0233A /* AppDelegate.h */,
@@ -141,16 +141,17 @@
 				5145ED751709713800A0233A /* second@2x.png */,
 				5145ED551709713800A0233A /* Supporting Files */,
 			);
+			name = KVOAndNotificationCenterExample;
 			path = KVOExample;
 			sourceTree = "<group>";
 		};
 		5145ED551709713800A0233A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5145ED561709713800A0233A /* KVOExample-Info.plist */,
+				5145ED561709713800A0233A /* KVOAndNotificationCenterExample-Info.plist */,
 				5145ED571709713800A0233A /* InfoPlist.strings */,
 				5145ED5A1709713800A0233A /* main.m */,
-				5145ED5C1709713800A0233A /* KVOExample-Prefix.pch */,
+				5145ED5C1709713800A0233A /* KVOAndNotificationCenterExample-Prefix.pch */,
 				5145ED601709713800A0233A /* Default.png */,
 				5145ED621709713800A0233A /* Default@2x.png */,
 				5145ED641709713800A0233A /* Default-568h@2x.png */,
@@ -171,7 +172,7 @@
 		5145ED841709713800A0233A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5145ED851709713800A0233A /* KVOExampleTests-Info.plist */,
+				5145ED851709713800A0233A /* KVOAndNotificationCenterExampleTests-Info.plist */,
 				5145ED861709713800A0233A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -180,9 +181,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5145ED491709713800A0233A /* KVOExample */ = {
+		5145ED491709713800A0233A /* KVOAndNotificationCenterExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5145ED8E1709713800A0233A /* Build configuration list for PBXNativeTarget "KVOExample" */;
+			buildConfigurationList = 5145ED8E1709713800A0233A /* Build configuration list for PBXNativeTarget "KVOAndNotificationCenterExample" */;
 			buildPhases = (
 				5145ED461709713800A0233A /* Sources */,
 				5145ED471709713800A0233A /* Frameworks */,
@@ -192,14 +193,14 @@
 			);
 			dependencies = (
 			);
-			name = KVOExample;
+			name = KVOAndNotificationCenterExample;
 			productName = KVOExample;
-			productReference = 5145ED4A1709713800A0233A /* KVOExample.app */;
+			productReference = 5145ED4A1709713800A0233A /* KVOAndNotificationCenterExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5145ED7B1709713800A0233A /* KVOExampleTests */ = {
+		5145ED7B1709713800A0233A /* KVOAndNotificationCenterExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5145ED911709713800A0233A /* Build configuration list for PBXNativeTarget "KVOExampleTests" */;
+			buildConfigurationList = 5145ED911709713800A0233A /* Build configuration list for PBXNativeTarget "KVOAndNotificationCenterExampleTests" */;
 			buildPhases = (
 				5145ED771709713800A0233A /* Sources */,
 				5145ED781709713800A0233A /* Frameworks */,
@@ -211,9 +212,9 @@
 			dependencies = (
 				5145ED821709713800A0233A /* PBXTargetDependency */,
 			);
-			name = KVOExampleTests;
+			name = KVOAndNotificationCenterExampleTests;
 			productName = KVOExampleTests;
-			productReference = 5145ED7C1709713800A0233A /* KVOExampleTests.octest */;
+			productReference = 5145ED7C1709713800A0233A /* KVOAndNotificationCenterExampleTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +226,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = Danno;
 			};
-			buildConfigurationList = 5145ED441709713800A0233A /* Build configuration list for PBXProject "KVOExample" */;
+			buildConfigurationList = 5145ED441709713800A0233A /* Build configuration list for PBXProject "KVOAndNotificationCenterExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,8 +238,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5145ED491709713800A0233A /* KVOExample */,
-				5145ED7B1709713800A0233A /* KVOExampleTests */,
+				5145ED491709713800A0233A /* KVOAndNotificationCenterExample */,
+				5145ED7B1709713800A0233A /* KVOAndNotificationCenterExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +312,7 @@
 /* Begin PBXTargetDependency section */
 		5145ED821709713800A0233A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5145ED491709713800A0233A /* KVOExample */;
+			target = 5145ED491709713800A0233A /* KVOAndNotificationCenterExample */;
 			targetProxy = 5145ED811709713800A0233A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -398,9 +399,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KVOExample/KVOExample-Prefix.pch";
-				INFOPLIST_FILE = "KVOExample/KVOExample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KVOExample/KVOAndNotificationCenterExample-Prefix.pch";
+				INFOPLIST_FILE = "KVOExample/KVOAndNotificationCenterExample-Info.plist";
+				PRODUCT_NAME = KVOAndNotificationCenterExample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,9 +410,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KVOExample/KVOExample-Prefix.pch";
-				INFOPLIST_FILE = "KVOExample/KVOExample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KVOExample/KVOAndNotificationCenterExample-Prefix.pch";
+				INFOPLIST_FILE = "KVOExample/KVOAndNotificationCenterExample-Info.plist";
+				PRODUCT_NAME = KVOAndNotificationCenterExample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -426,8 +427,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KVOExample/KVOExample-Prefix.pch";
-				INFOPLIST_FILE = "KVOExampleTests/KVOExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "KVOExampleTests/KVOAndNotificationCenterExampleTests-Info.plist";
+				PRODUCT_NAME = KVOAndNotificationCenterExampleTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -443,8 +444,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KVOExample/KVOExample-Prefix.pch";
-				INFOPLIST_FILE = "KVOExampleTests/KVOExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "KVOExampleTests/KVOAndNotificationCenterExampleTests-Info.plist";
+				PRODUCT_NAME = KVOAndNotificationCenterExampleTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -453,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5145ED441709713800A0233A /* Build configuration list for PBXProject "KVOExample" */ = {
+		5145ED441709713800A0233A /* Build configuration list for PBXProject "KVOAndNotificationCenterExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5145ED8C1709713800A0233A /* Debug */,
@@ -462,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5145ED8E1709713800A0233A /* Build configuration list for PBXNativeTarget "KVOExample" */ = {
+		5145ED8E1709713800A0233A /* Build configuration list for PBXNativeTarget "KVOAndNotificationCenterExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5145ED8F1709713800A0233A /* Debug */,
@@ -470,7 +471,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		5145ED911709713800A0233A /* Build configuration list for PBXNativeTarget "KVOExampleTests" */ = {
+		5145ED911709713800A0233A /* Build configuration list for PBXNativeTarget "KVOAndNotificationCenterExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5145ED921709713800A0233A /* Debug */,

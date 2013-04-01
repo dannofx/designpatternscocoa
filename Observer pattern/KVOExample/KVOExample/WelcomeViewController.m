@@ -16,11 +16,16 @@
 @synthesize nameTextView;
 
 static NSString * keyName=@"userName";
+static NSString * notificationName=@"userName";
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    //Implementacion con notification center
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self selector:@selector(updateMyMessageLabel:) name:notificationName object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -29,6 +34,8 @@ static NSString * keyName=@"userName";
     // Dispose of any resources that can be recreated.
 }
 
+//Implementacion KVO
+/*
 - (void)observeValueForKeyPath:(NSString *)keyPath
                       ofObject:(id)object
                         change:(NSDictionary *)change
@@ -46,10 +53,22 @@ static NSString * keyName=@"userName";
     
     
 }
+*/
+
+-(void)updateMyMessageLabel:(NSNotification *)notification
+{
+    NSString * nameString=[notification.userInfo objectForKey:keyName];
+    NSString * finalString=[NSString stringWithFormat:@"Hello %@, this is a welcome message for you. ",nameString];
+    self.nameTextView.text=finalString;
+
+}
 
 -(void)dealloc
 {
-    [self removeObserver:self forKeyPath:keyName];
+    //Implementacion con notification center
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    // Implementacion con KVO
+   // [self removeObserver:self forKeyPath:keyName];
 }
 
 
