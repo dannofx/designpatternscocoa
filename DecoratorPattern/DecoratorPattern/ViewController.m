@@ -7,6 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+ImageComponent.h"
+#import "ImageComponent.h"
+#import "ImageScaleFilter.h"
+#import "ImageTransformFilter.h"
+#import "ImageShadowFilter.h"
+
 
 /*
  
@@ -33,18 +39,26 @@
  */
 
 @interface ViewController ()
-
+{
+    id<ImageComponent> localImage;
+}
+-(void)resetImage;
 @end
 
 @implementation ViewController
-@synthesize imageView;
+@synthesize decoratorView;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	[self resetImage];
 }
 
+-(void)resetImage
+{
+    localImage=[UIImage imageNamed:@"horse.jpeg"];
+
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -52,15 +66,29 @@
 }
 -(IBAction)addShadow:(id)sender
 {
+    localImage=[[ImageShadowFilter alloc] initWithImageComponent:localImage];
 
 }
 -(IBAction)addTransform:(id)sender
 {
-
+    localImage=[[ImageTransformFilter alloc] initWithImageComponent:localImage];
+}
+-(IBAction)addScaleEffect:(id)sender
+{
+    localImage=[[ImageScaleFilter alloc] initWithImageComponent:localImage];
 }
 -(IBAction)applyAllEffects:(id)sender
 {
-
+    
+    if(decoratorView!=nil)
+    {
+        [decoratorView removeFromSuperview];
+        decoratorView=nil;
+    }
+    decoratorView=[[DecoratorView alloc] initWithFrame:CGRectMake(0, 0,320.0,305.0)];
+    [decoratorView setImage:(UIImage *)localImage];
+    [self.view addSubview:decoratorView];
+    [self resetImage];
 }
 
 @end

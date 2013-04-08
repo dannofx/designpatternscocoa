@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DecoratorView.h"
 @interface ViewController : UIViewController
 
-@property(nonatomic,retain) IBOutlet UIImageView * imageView;
+
+@property(nonatomic,retain)  DecoratorView * decoratorView;
 
 -(IBAction)addShadow:(id)sender;
 -(IBAction)addTransform:(id)sender;
+-(IBAction)addScaleEffect:(id)sender;
 -(IBAction)applyAllEffects:(id)sender;
 
 @end

@@ -24,6 +24,18 @@
 		51A569621712A5F20015395C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51A569601712A5F20015395C /* InfoPlist.strings */; };
 		51A569651712A5F20015395C /* DecoratorPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A569641712A5F20015395C /* DecoratorPatternTests.m */; };
 		51A5696F1712A6B30015395C /* horse.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 51A5696E1712A6B30015395C /* horse.jpeg */; };
+		51A569751712AA920015395C /* ImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A569721712AA920015395C /* ImageTransformFilter.m */; };
+		51A569761712AA920015395C /* ImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A569721712AA920015395C /* ImageTransformFilter.m */; };
+		51A569771712AA920015395C /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A569741712AA920015395C /* ImageShadowFilter.m */; };
+		51A569781712AA920015395C /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A569741712AA920015395C /* ImageShadowFilter.m */; };
+		51A5697B1712AABC0015395C /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A5697A1712AABC0015395C /* ImageFilter.m */; };
+		51A5697C1712AABC0015395C /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A5697A1712AABC0015395C /* ImageFilter.m */; };
+		51A569801712AAC80015395C /* UIImage+ImageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A5697F1712AAC80015395C /* UIImage+ImageComponent.m */; };
+		51A569811712AAC80015395C /* UIImage+ImageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A5697F1712AAC80015395C /* UIImage+ImageComponent.m */; };
+		51A569841712AC1E0015395C /* ImageScaleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A569831712AC1D0015395C /* ImageScaleFilter.m */; };
+		51A569851712AC1E0015395C /* ImageScaleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A569831712AC1D0015395C /* ImageScaleFilter.m */; };
+		51A569881712B20F0015395C /* DecoratorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A569871712B20E0015395C /* DecoratorView.m */; };
+		51A569891712B20F0015395C /* DecoratorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A569871712B20E0015395C /* DecoratorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +72,19 @@
 		51A569631712A5F20015395C /* DecoratorPatternTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorPatternTests.h; sourceTree = "<group>"; };
 		51A569641712A5F20015395C /* DecoratorPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorPatternTests.m; sourceTree = "<group>"; };
 		51A5696E1712A6B30015395C /* horse.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horse.jpeg; sourceTree = "<group>"; };
+		51A569711712AA920015395C /* ImageTransformFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransformFilter.h; sourceTree = "<group>"; };
+		51A569721712AA920015395C /* ImageTransformFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTransformFilter.m; sourceTree = "<group>"; };
+		51A569731712AA920015395C /* ImageShadowFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageShadowFilter.h; sourceTree = "<group>"; };
+		51A569741712AA920015395C /* ImageShadowFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageShadowFilter.m; sourceTree = "<group>"; };
+		51A569791712AABC0015395C /* ImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
+		51A5697A1712AABC0015395C /* ImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilter.m; sourceTree = "<group>"; };
+		51A5697D1712AAC80015395C /* ImageComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageComponent.h; sourceTree = "<group>"; };
+		51A5697E1712AAC80015395C /* UIImage+ImageComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageComponent.h"; sourceTree = "<group>"; };
+		51A5697F1712AAC80015395C /* UIImage+ImageComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageComponent.m"; sourceTree = "<group>"; };
+		51A569821712AC1D0015395C /* ImageScaleFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScaleFilter.h; sourceTree = "<group>"; };
+		51A569831712AC1D0015395C /* ImageScaleFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScaleFilter.m; sourceTree = "<group>"; };
+		51A569861712B20E0015395C /* DecoratorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorView.h; sourceTree = "<group>"; };
+		51A569871712B20E0015395C /* DecoratorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +149,11 @@
 				51A5694B1712A5F20015395C /* MainStoryboard.storyboard */,
 				51A5694E1712A5F20015395C /* ViewController.h */,
 				51A5694F1712A5F20015395C /* ViewController.m */,
+				51A569861712B20E0015395C /* DecoratorView.h */,
+				51A569871712B20E0015395C /* DecoratorView.m */,
+				51A5697D1712AAC80015395C /* ImageComponent.h */,
+				51A5697E1712AAC80015395C /* UIImage+ImageComponent.h */,
+				51A5697F1712AAC80015395C /* UIImage+ImageComponent.m */,
 				51A569701712A92E0015395C /* Decorators */,
 				51A5693A1712A5F10015395C /* Supporting Files */,
 			);
@@ -167,6 +197,14 @@
 		51A569701712A92E0015395C /* Decorators */ = {
 			isa = PBXGroup;
 			children = (
+				51A569791712AABC0015395C /* ImageFilter.h */,
+				51A5697A1712AABC0015395C /* ImageFilter.m */,
+				51A569711712AA920015395C /* ImageTransformFilter.h */,
+				51A569721712AA920015395C /* ImageTransformFilter.m */,
+				51A569731712AA920015395C /* ImageShadowFilter.h */,
+				51A569741712AA920015395C /* ImageShadowFilter.m */,
+				51A569821712AC1D0015395C /* ImageScaleFilter.h */,
+				51A569831712AC1D0015395C /* ImageScaleFilter.m */,
 			);
 			name = Decorators;
 			sourceTree = "<group>";
@@ -285,6 +323,12 @@
 				51A569401712A5F10015395C /* main.m in Sources */,
 				51A569441712A5F20015395C /* AppDelegate.m in Sources */,
 				51A569501712A5F20015395C /* ViewController.m in Sources */,
+				51A569751712AA920015395C /* ImageTransformFilter.m in Sources */,
+				51A569771712AA920015395C /* ImageShadowFilter.m in Sources */,
+				51A5697B1712AABC0015395C /* ImageFilter.m in Sources */,
+				51A569801712AAC80015395C /* UIImage+ImageComponent.m in Sources */,
+				51A569841712AC1E0015395C /* ImageScaleFilter.m in Sources */,
+				51A569881712B20F0015395C /* DecoratorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +337,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				51A569651712A5F20015395C /* DecoratorPatternTests.m in Sources */,
+				51A569761712AA920015395C /* ImageTransformFilter.m in Sources */,
+				51A569781712AA920015395C /* ImageShadowFilter.m in Sources */,
+				51A5697C1712AABC0015395C /* ImageFilter.m in Sources */,
+				51A569811712AAC80015395C /* UIImage+ImageComponent.m in Sources */,
+				51A569851712AC1E0015395C /* ImageScaleFilter.m in Sources */,
+				51A569891712B20F0015395C /* DecoratorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +515,7 @@
 				51A5696A1712A5F20015395C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51A5696B1712A5F20015395C /* Build configuration list for PBXNativeTarget "DecoratorPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +524,7 @@
 				51A5696D1712A5F20015395C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
