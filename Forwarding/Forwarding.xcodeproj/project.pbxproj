@@ -23,6 +23,8 @@
 		51768601171BF8750031D42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517685DC171BF8750031D42C /* Foundation.framework */; };
 		51768609171BF8750031D42C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51768607171BF8750031D42C /* InfoPlist.strings */; };
 		5176860C171BF8750031D42C /* ForwardingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176860B171BF8750031D42C /* ForwardingTests.m */; };
+		51768617171BF8850031D42C /* Nota.m in Sources */ = {isa = PBXBuildFile; fileRef = 51768616171BF8850031D42C /* Nota.m */; };
+		5176861A171BF88D0031D42C /* Periodico.m in Sources */ = {isa = PBXBuildFile; fileRef = 51768619171BF88D0031D42C /* Periodico.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		51768608171BF8750031D42C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5176860A171BF8750031D42C /* ForwardingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardingTests.h; sourceTree = "<group>"; };
 		5176860B171BF8750031D42C /* ForwardingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardingTests.m; sourceTree = "<group>"; };
+		51768615171BF8850031D42C /* Nota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nota.h; sourceTree = "<group>"; };
+		51768616171BF8850031D42C /* Nota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nota.m; sourceTree = "<group>"; };
+		51768618171BF88D0031D42C /* Periodico.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Periodico.h; sourceTree = "<group>"; };
+		51768619171BF88D0031D42C /* Periodico.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Periodico.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,10 @@
 				517685F2171BF8750031D42C /* MainStoryboard.storyboard */,
 				517685F5171BF8750031D42C /* ViewController.h */,
 				517685F6171BF8750031D42C /* ViewController.m */,
+				51768615171BF8850031D42C /* Nota.h */,
+				51768616171BF8850031D42C /* Nota.m */,
+				51768618171BF88D0031D42C /* Periodico.h */,
+				51768619171BF88D0031D42C /* Periodico.m */,
 				517685E1171BF8750031D42C /* Supporting Files */,
 			);
 			path = Forwarding;
@@ -273,6 +283,8 @@
 				517685E7171BF8750031D42C /* main.m in Sources */,
 				517685EB171BF8750031D42C /* AppDelegate.m in Sources */,
 				517685F7171BF8750031D42C /* ViewController.m in Sources */,
+				51768617171BF8850031D42C /* Nota.m in Sources */,
+				5176861A171BF88D0031D42C /* Periodico.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

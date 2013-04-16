@@ -8,6 +8,14 @@
 
 #import "CatAsyncView.h"
 
+@interface CatAsyncView()
+{
+    Cat * currentCat;
+}
+-(void)downloadCatImage:(NSDictionary *)catInfo;
+
+@end
+
 @implementation CatAsyncView
 
 - (id)initWithFrame:(CGRect)frame
@@ -19,13 +27,38 @@
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+-(void)updateWithCat:(Cat *)cat
 {
-    // Drawing code
+    currentCat=cat;
+    UIImage * savedImage=[[UIImage alloc] initWithContentsOfFile:cat.catLocalPath];
+    
+    if(savedImage==nil)
+    {
+        NSDictionary * catInfo=[NSDictionary dictionaryWithObjectsAndKeys:cat.catAddress,@"address",cat.catLocalPath,@"localpath", nil];
+        [self performSelectorInBackground:@selector(downloadCatImage:) withObject:catInfo];
+        self.image=[UIImage imageNamed:@"wait.png"];
+        
+    }
+    else
+        self.image=savedImage;
 }
-*/
+
+-(void)downloadCatImage:(NSDictionary *)catInfo
+{
+#warning Este ejemplo no tiene validacion para accesos concurrentes (multihilo) ni toma en cuenta que una descarga podria hacerse una o mas veces.
+    NSString * catAddress=[catInfo objectForKey:@"address"];
+    NSString * catLocalPath=[catInfo objectForKey:@"localpath"];
+    
+    
+    NSData *downloadedData=[NSData dataWithContentsOfURL:[NSURL URLWithString:catAddress]];
+    [downloadedData writeToFile:catLocalPath atomically:YES];
+    
+    if([currentCat.catAddress isEqualToString:catAddress])
+    {
+        UIImage * downloadedImage = [UIImage imageWithData:downloadedData];
+        self.image=downloadedImage;
+    }
+
+}
 
 @end

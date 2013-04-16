@@ -51,7 +51,7 @@ static NSString * notificationName=@"userName";
     //Implementacion con notification center
 
     [[NSNotificationCenter defaultCenter]
-     addObserver:self selector:@selector(updateMyUserLabel:) name:notificationName object:nil];
+     addObserver:self selector:@selector(updateMyUserLabel:) name:notificationName object:self];
     //el parametro object indica el sender, si se indica solamente las notificaciones posteadas por ese
     //sender seran entregadas a este observer
 }
@@ -80,7 +80,7 @@ static NSString * notificationName=@"userName";
 {
     NSString * nameString=[notification.userInfo objectForKey:keyName];
     NSString * finalString=[NSString stringWithFormat:@"The current user name is: %@ ",nameString];
-    self.nameLabel.text=finalString;
+    self.nameLabel.text=finalString ;
 }
 
 /*

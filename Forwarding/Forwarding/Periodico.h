@@ -10,4 +10,10 @@
 
 @interface Periodico : NSObject
 
+@property(nonatomic,retain) NSString * fecha;
+@property(nonatomic,retain) NSString * nombre;
+
+//no existen aqui
+@property (nonatomic) NSString * titulo;
+@property (nonatomic) NSString * autor;
 @end

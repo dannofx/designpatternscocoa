@@ -9,5 +9,17 @@
 #import "Cat.h"
 
 @implementation Cat
+@synthesize catName=_catName;
+@synthesize catAddress=_catAddress;
+@synthesize catLocalPath=_catLocalPath;
 
+
+-(void)setCatName:(NSString *)catName
+{
+    _catName=catName;
+    NSString *documentsDirectory = NSTemporaryDirectory();
+    NSString *localFilePath = [documentsDirectory stringByAppendingPathComponent:catName];
+    self.catLocalPath=localFilePath;
+    
+}
 @end

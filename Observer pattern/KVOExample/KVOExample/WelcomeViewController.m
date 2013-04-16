@@ -57,6 +57,7 @@ static NSString * notificationName=@"userName";
 
 -(void)updateMyMessageLabel:(NSNotification *)notification
 {
+
     NSString * nameString=[notification.userInfo objectForKey:keyName];
     NSString * finalString=[NSString stringWithFormat:@"Hello %@, this is a welcome message for you. ",nameString];
     self.nameTextView.text=finalString;

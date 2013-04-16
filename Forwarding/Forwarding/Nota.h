@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Nota : NSObject
-
+@property (nonatomic,retain) NSString * titulo;
+@property (nonatomic,retain) NSString * autor;
 @end

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Coffe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gay-Wl-ddG">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="8Gi-QW-pal"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dZ-jO-P1O">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Azucar">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addSugar:" destination="2" eventType="touchUpInside" id="Lhc-gi-ylt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3d0-tA-VL4">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Chocolate">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addChocolate:" destination="2" eventType="touchUpInside" id="Ho0-QT-SpP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Agregar:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHc-8P-JWY">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="s1o-bp-oGK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUS-Ao-3Ed">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Leche">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addMilk:" destination="2" eventType="touchUpInside" id="f2q-Qc-EbJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOv-vB-G6b">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Canela">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addCinnamon:" destination="2" eventType="touchUpInside" id="yhE-IH-wll"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBx-5g-mF1">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Crema">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addCream:" destination="2" eventType="touchUpInside" id="ziT-Si-zsa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8o-a5-RHl">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="kIt-GL-mWZ"/>
+                                    <constraint firstAttribute="width" constant="133" id="yjc-x3-bad"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Cobrar">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateCoffeePrice:" destination="2" eventType="touchUpInside" id="Ljd-Pp-rac"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="$0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2Y-tb-7ad">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="231" id="CVE-D4-iJZ"/>
+                                    <constraint firstAttribute="height" constant="88" id="xuX-dN-M3N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QOv-vB-G6b" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0XL-0z-Zqp"/>
+                            <constraint firstItem="ZBx-5g-mF1" firstAttribute="leading" secondItem="QOv-vB-G6b" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="1kN-Ce-Dlp"/>
+                            <constraint firstItem="dHc-8P-JWY" firstAttribute="top" secondItem="3" secondAttribute="top" constant="80" id="2Ig-rp-e2A"/>
+                            <constraint firstItem="n2Y-tb-7ad" firstAttribute="centerX" secondItem="q8o-a5-RHl" secondAttribute="centerX" type="default" id="899-pQ-pgp"/>
+                            <constraint firstItem="vUS-Ao-3Ed" firstAttribute="baseline" secondItem="3d0-tA-VL4" secondAttribute="baseline" type="default" id="8rB-h7-cSm"/>
+                            <constraint firstItem="3d0-tA-VL4" firstAttribute="leading" secondItem="2dZ-jO-P1O" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="AY8-AA-PDm"/>
+                            <constraint firstItem="2dZ-jO-P1O" firstAttribute="top" secondItem="dHc-8P-JWY" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="AjZ-g3-9xk"/>
+                            <constraint firstItem="q8o-a5-RHl" firstAttribute="top" secondItem="3" secondAttribute="top" constant="218" id="GAe-h3-Oq6"/>
+                            <constraint firstItem="2dZ-jO-P1O" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="GF2-Fr-bP7"/>
+                            <constraint firstItem="Gay-Wl-ddG" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="33" id="MCM-eq-Cx6"/>
+                            <constraint firstItem="ZBx-5g-mF1" firstAttribute="baseline" secondItem="QOv-vB-G6b" secondAttribute="baseline" type="default" id="PbH-xj-OhW"/>
+                            <constraint firstItem="QOv-vB-G6b" firstAttribute="top" secondItem="2dZ-jO-P1O" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="TWC-S0-IBN"/>
+                            <constraint firstItem="vUS-Ao-3Ed" firstAttribute="leading" secondItem="3d0-tA-VL4" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Tfi-E5-Fm5"/>
+                            <constraint firstItem="n2Y-tb-7ad" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="g3Q-ma-lgg"/>
+                            <constraint firstItem="3d0-tA-VL4" firstAttribute="baseline" secondItem="2dZ-jO-P1O" secondAttribute="baseline" type="default" id="l40-wK-LPV"/>
+                            <constraint firstItem="dHc-8P-JWY" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="pSF-PC-Vqo"/>
+                            <constraint firstItem="Gay-Wl-ddG" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="qHo-zG-Pme"/>
+                            <constraint firstAttribute="bottom" secondItem="n2Y-tb-7ad" secondAttribute="bottom" constant="86" id="s7P-8n-cAh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="priceLabel" destination="n2Y-tb-7ad" id="IdH-1W-VXa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="addChocolate:"/>
+                <relationship kind="action" name="addCinnamon:"/>
+                <relationship kind="action" name="addCream:"/>
+                <relationship kind="action" name="addMilk:"/>
+                <relationship kind="action" name="addSugar:"/>
+                <relationship kind="action" name="calculateCoffeePrice:"/>
+                <relationship kind="outlet" name="priceLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

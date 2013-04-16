@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		517685C4171BE6910031D42C /* CatAsyncView.m in Sources */ = {isa = PBXBuildFile; fileRef = 517685C3171BE6910031D42C /* CatAsyncView.m */; };
+		517685C6171BE7170031D42C /* wait.png in Resources */ = {isa = PBXBuildFile; fileRef = 517685C5171BE7170031D42C /* wait.png */; };
 		519DB681171BDA4C008C612B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519DB680171BDA4C008C612B /* UIKit.framework */; };
 		519DB683171BDA4C008C612B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519DB682171BDA4C008C612B /* Foundation.framework */; };
 		519DB685171BDA4C008C612B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519DB684171BDA4C008C612B /* CoreGraphics.framework */; };
@@ -17,12 +19,14 @@
 		519DB695171BDA4C008C612B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 519DB694171BDA4C008C612B /* Default@2x.png */; };
 		519DB697171BDA4C008C612B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 519DB696171BDA4C008C612B /* Default-568h@2x.png */; };
 		519DB69A171BDA4C008C612B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519DB698171BDA4C008C612B /* MainStoryboard.storyboard */; };
-		519DB69D171BDA4C008C612B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519DB69C171BDA4C008C612B /* ViewController.m */; };
 		519DB6A5171BDA4C008C612B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519DB6A4171BDA4C008C612B /* SenTestingKit.framework */; };
 		519DB6A6171BDA4C008C612B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519DB680171BDA4C008C612B /* UIKit.framework */; };
 		519DB6A7171BDA4C008C612B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519DB682171BDA4C008C612B /* Foundation.framework */; };
 		519DB6AF171BDA4C008C612B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 519DB6AD171BDA4C008C612B /* InfoPlist.strings */; };
 		519DB6B2171BDA4C008C612B /* ProxyPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 519DB6B1171BDA4C008C612B /* ProxyPatternTests.m */; };
+		519DB6C0171BDADD008C612B /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 519DB6BF171BDADD008C612B /* Cat.m */; };
+		519DB6C3171BDBE7008C612B /* CatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519DB6C2171BDBE7008C612B /* CatsViewController.m */; };
+		519DB6C6171BE16C008C612B /* CatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 519DB6C5171BE16C008C612B /* CatCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		517685C2171BE6910031D42C /* CatAsyncView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatAsyncView.h; sourceTree = "<group>"; };
+		517685C3171BE6910031D42C /* CatAsyncView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatAsyncView.m; sourceTree = "<group>"; };
+		517685C5171BE7170031D42C /* wait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wait.png; sourceTree = "<group>"; };
 		519DB67D171BDA4C008C612B /* ProxyPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxyPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		519DB680171BDA4C008C612B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		519DB682171BDA4C008C612B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,14 +57,18 @@
 		519DB694171BDA4C008C612B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		519DB696171BDA4C008C612B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		519DB699171BDA4C008C612B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		519DB69B171BDA4C008C612B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		519DB69C171BDA4C008C612B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		519DB6A3171BDA4C008C612B /* ProxyPatternTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyPatternTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		519DB6A4171BDA4C008C612B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		519DB6AC171BDA4C008C612B /* ProxyPatternTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProxyPatternTests-Info.plist"; sourceTree = "<group>"; };
 		519DB6AE171BDA4C008C612B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		519DB6B0171BDA4C008C612B /* ProxyPatternTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyPatternTests.h; sourceTree = "<group>"; };
 		519DB6B1171BDA4C008C612B /* ProxyPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyPatternTests.m; sourceTree = "<group>"; };
+		519DB6BE171BDADD008C612B /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		519DB6BF171BDADD008C612B /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		519DB6C1171BDBE7008C612B /* CatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatsViewController.h; sourceTree = "<group>"; };
+		519DB6C2171BDBE7008C612B /* CatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatsViewController.m; sourceTree = "<group>"; };
+		519DB6C4171BE16C008C612B /* CatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatCell.h; sourceTree = "<group>"; };
+		519DB6C5171BE16C008C612B /* CatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		517685C7171BEEF60031D42C /* Cat */ = {
+			isa = PBXGroup;
+			children = (
+				519DB6BE171BDADD008C612B /* Cat.h */,
+				519DB6BF171BDADD008C612B /* Cat.m */,
+			);
+			name = Cat;
+			sourceTree = "<group>";
+		};
 		519DB674171BDA4C008C612B = {
 			isa = PBXGroup;
 			children = (
@@ -120,9 +140,14 @@
 				519DB68F171BDA4C008C612B /* AppDelegate.h */,
 				519DB690171BDA4C008C612B /* AppDelegate.m */,
 				519DB698171BDA4C008C612B /* MainStoryboard.storyboard */,
-				519DB69B171BDA4C008C612B /* ViewController.h */,
-				519DB69C171BDA4C008C612B /* ViewController.m */,
 				519DB687171BDA4C008C612B /* Supporting Files */,
+				519DB6C1171BDBE7008C612B /* CatsViewController.h */,
+				519DB6C2171BDBE7008C612B /* CatsViewController.m */,
+				519DB6C4171BE16C008C612B /* CatCell.h */,
+				519DB6C5171BE16C008C612B /* CatCell.m */,
+				517685C2171BE6910031D42C /* CatAsyncView.h */,
+				517685C3171BE6910031D42C /* CatAsyncView.m */,
+				517685C7171BEEF60031D42C /* Cat */,
 			);
 			path = ProxyPattern;
 			sourceTree = "<group>";
@@ -130,6 +155,7 @@
 		519DB687171BDA4C008C612B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				517685C5171BE7170031D42C /* wait.png */,
 				519DB688171BDA4C008C612B /* ProxyPattern-Info.plist */,
 				519DB689171BDA4C008C612B /* InfoPlist.strings */,
 				519DB68C171BDA4C008C612B /* main.m */,
@@ -236,6 +262,7 @@
 				519DB695171BDA4C008C612B /* Default@2x.png in Resources */,
 				519DB697171BDA4C008C612B /* Default-568h@2x.png in Resources */,
 				519DB69A171BDA4C008C612B /* MainStoryboard.storyboard in Resources */,
+				517685C6171BE7170031D42C /* wait.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +299,10 @@
 			files = (
 				519DB68D171BDA4C008C612B /* main.m in Sources */,
 				519DB691171BDA4C008C612B /* AppDelegate.m in Sources */,
-				519DB69D171BDA4C008C612B /* ViewController.m in Sources */,
+				519DB6C0171BDADD008C612B /* Cat.m in Sources */,
+				519DB6C3171BDBE7008C612B /* CatsViewController.m in Sources */,
+				519DB6C6171BE16C008C612B /* CatCell.m in Sources */,
+				517685C4171BE6910031D42C /* CatAsyncView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +483,7 @@
 				519DB6B7171BDA4C008C612B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		519DB6B8171BDA4C008C612B /* Build configuration list for PBXNativeTarget "ProxyPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +492,7 @@
 				519DB6BA171BDA4C008C612B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

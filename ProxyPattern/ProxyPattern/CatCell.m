@@ -9,6 +9,8 @@
 #import "CatCell.h"
 
 @implementation CatCell
+@synthesize catImageView;
+@synthesize catNameLabel;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

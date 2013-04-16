@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Cat.h"
 
 @interface CatAsyncView : UIImageView
-
+-(void)updateWithCat:(Cat *)cat;
 @end

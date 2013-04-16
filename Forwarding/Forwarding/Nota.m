@@ -9,5 +9,18 @@
 #import "Nota.h"
 
 @implementation Nota
+@synthesize titulo;
+@synthesize autor;
+
+-(id)init
+{
+    self=[super init];
+    if(self)
+    {
+        self.titulo=@"Chavos aprenden forwarding";
+        self.autor=@"Desco Nocido";
+    }
+    return self;
+}
 
 @end
